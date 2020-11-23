@@ -37,7 +37,7 @@ function App() {
           </List>
         </Segment>
         <Segment>
-          <ArtworkList artworks={artworks}/>
+          <ArtworkList artworks={artworks()}/>
         </Segment>
       </Segment.Group>
       <Segment.Group horizontal>
@@ -50,6 +50,3 @@ function App() {
 }
 
 export default App;
-
-
-
